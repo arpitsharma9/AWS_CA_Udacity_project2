@@ -1,0 +1,18 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),S3 Cost estimate,S3 Standard,0,320.16,3841.92,USD,S3 Standard storage (10 TB per month)
+My Estimate,US East (N. Virginia),S3 Cost estimate,Data Transfer,0,1356.71,16280.52,USD,"DT Inbound: Internet (10 TB per month), DT Outbound: Internet (15 TB per month)"
+My Estimate,US East (N. Virginia),Route 53,Amazon Route 53,0,108.95,1307.40,USD,"Hosted Zones (1), Basic Checks Within AWS (1)"
+My Estimate,US East (N. Virginia),EC2 - App and Web server,Amazon EC2,0,3061.34,36736.08,USD,"Operating system (Linux), Storage amount (250 GB), DT Inbound: Internet (10 TB per month), DT Outbound: Internet (10 TB per month), DT Intra-Region: (0 TB per month), Workload (Daily, (Workload days: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Baseline: 4, Peak: 20, Duration of peak: 16 Hr 30 Min)), Advance EC2 instance (t3.medium), Pricing strategy (On-Demand), Snapshot Frequency (2x Daily), Amount changed per snapshot (50 GB)"
+My Estimate,US East (N. Virginia),NAT,Amazon Virtual Private Cloud (VPC),0,110.7,1328.40,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,49.2,590.40,USD,Number of interface VPC endpoints per region (2)
+My Estimate,US East (N. Virginia),Elastic Load Balancer,Application Load Balancer,0,532.9,6394.80,USD,Number of Application Load Balancers (4)
+My Estimate,US East (N. Virginia),RDS Database ,Amazon RDS for PostgreSQL,0,5982.08,71784.96,USD,"Storage volume (Provisioned IOPS SSD (io1)), Provisioning IOPS (2000), Storage amount (2 TB per month), Nodes (2), Instance Type (db.m5.4xlarge), Deployment Option (Multi-AZ), Pricing Model (OnDemand)"
+My Estimate,US East (N. Virginia),Elastic IP,Amazon Elastic IP,0,14.6,175.20,USD,"Number of EC2 instances (4), Number of EIPs per instance (2)"
+My Estimate,US East (N. Virginia),Elastic Cache,Amazon ElastiCache,0,5314.4,63772.80,USD,( 2 instances of type Redis  Memory optimized  cache r4.8xlarge  OnDemand )
+My Estimate,US East (N. Virginia),Web Application Firewall,AWS Web Application Firewall (WAF),0,75.6,907.20,USD,"Number of Web Access Control Lists (Web ACLs) utilized (10 per month), Number of Rules added per Web ACL (10 per month), Number of Rule Groups per Web ACL (5 per month), Number of Rules inside each Rule Group (2 per month), Number of Managed Rule Groups ( per month)"
+Global,All,Business support plan,AWS Support,0,1484.8600000000001 ,17818.32,USD,"Supports 24/7 phone, chat, and email access to Cloud Support Engineers for unlimited contacts, with and a response time of less than 1 hour."
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."

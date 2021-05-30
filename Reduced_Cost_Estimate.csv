@@ -1,0 +1,16 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),S3 Cost estimate,S3 Standard,0,320.16,3841.92,USD,S3 Standard storage (10 TB per month)
+My Estimate,US East (N. Virginia),S3 Cost estimate,Data Transfer,0,1356.71,16280.52,USD,"DT Inbound: Internet (10 TB per month), DT Outbound: Internet (15 TB per month)"
+My Estimate,US East (N. Virginia),Route 53,Amazon Route 53,0,108.95,1307.4,USD,"Hosted Zones (1), Basic Checks Within AWS (1)"
+My Estimate,US East (N. Virginia),EC2 - App and Web server,Amazon EC2,0,681.090665,8173.09,USD,"Operating system (Linux), Storage amount (200 GB), DT Inbound: Internet (5 TB per month), DT Outbound: Internet (5 TB per month), DT Intra-Region: (0 TB per month), Workload (Daily, (Workload days: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Baseline: 4, Peak: 8, Duration of peak: 8 Hr 0 Min)), Advance EC2 instance (t3.micro), Pricing strategy (On-Demand), Snapshot Frequency (Weekly), Amount changed per snapshot (50 GB)"
+My Estimate,US East (N. Virginia),NAT,Amazon Virtual Private Cloud (VPC),0,110.7,1328.4,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,49.2,590.4,USD,Number of interface VPC endpoints per region (2)
+My Estimate,US East (N. Virginia),Elastic Load Balancer,Application Load Balancer,0,532.9,6394.8,USD,Number of Application Load Balancers (4)
+My Estimate,US East (N. Virginia),RDS Database ,Amazon RDS for PostgreSQL,0,3073.68,36884.16,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (2 TB per month), Nodes (2), Instance Type (db.m5.2xlarge), Deployment Option (Multi-AZ), Pricing Model (OnDemand)"
+My Estimate,US East (N. Virginia),Elastic IP,Amazon Elastic IP,0,14.6,175.2,USD,"Number of EC2 instances (4), Number of EIPs per instance (2)"
+Global,All,Developer support plan,AWS Support,0,187.44,2249.28,USD,"Supports one primary contact with a Cloud Support associate during business hours, with a response time of 12 hours or less for system issues."
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
